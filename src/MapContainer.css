@@ -1,0 +1,13 @@
+.map-container {
+  padding: 10px;
+  text-align: initial;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+.lat-long {
+  padding: 10px 0px;
+  display: flex;
+  gap: 20px;
+}

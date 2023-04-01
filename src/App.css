@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  font-family: sans-serif, Verdana, Arial;
+}
+.svg-container {
+  height: 100%;
+}
+
+.userlist-container {
+  box-shadow: 5px 5px 15px gray;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  border-radius: 30px 30px 30px 30px;
+  background: white;
+}
+.userlist-items-container {
+  background-color: white;
+  max-height: 500px;
+  overflow-y: scroll;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.userlist-items {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0px 30px;
+  font-size: 20px;
+  border-bottom: 0.5px solid #8080803d;
+  color: #808080;
+  cursor: pointer;
+
+  /* flex-direction: ; */
+}
+.avatar {
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.header {
+  background-color: #f6f6f6;
+  border-radius: 30px 30px 0px 0px;
+  text-align: center;
+  padding: 35px;
+  font: 24px solid green;
+  font-weight: 400;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  padding: 0px 2px 0px 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #d8d8d8;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d8d8d8;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d8d8d8;
+}
+.key-value-wrapper {
+  padding: 10px 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  width: 300px;
+}
+
+.key-name {
+  font-size: 20px;
+  color: #9a9a9a;
+  font-weight: 400;
+  width: 110px;
+  text-align: end;
+}
+.hyphen-name {
+  color: #9a9a9a;
+  max-width: 200px;
+}
+
+.value-name {
+  font-size: 20px;
+  color: #545454;
+  font-weight: 700;
+}
+
+.main {
+  border-radius: 20px;
+  height: 50vh;
+  width: 100%;
+}
+
+.coming-soon-container {
+  height: 90vh;
+  text-align: center;
+  position: relative;
+}
+.coming-soon {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color: #eeeeee;
+  font-size: 80px;
+}
